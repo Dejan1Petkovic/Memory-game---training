@@ -4,9 +4,7 @@ var gridSize = 200;
 var theEnd = 2;
 var move = 0;
 var secondsBack = 10;
-// var seconds = 500;
 nivo();
-
 
 function nivo() {
   if (localStorage.getItem('level') == null) {
@@ -17,7 +15,6 @@ function nivo() {
     level3();
   }
 }
-
 
 function level1() {
   playGame();
