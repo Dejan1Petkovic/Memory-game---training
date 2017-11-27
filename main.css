@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-header {
+  background-color: #14d355 !important;
+  box-shadow: 0 0 8px;
+}
+.grid-holder {
+  margin: 50px auto;
+  display: inline-block;
+}
+.tableGrid {
+  /*margin: 50px auto;*/
+  box-shadow: 0 0 8px;
+  float: left;
+
+}
+.timer {
+  width: 10px;
+  border: 1px solid black;
+  background-color: #14d355;
+  box-shadow: 0 0 8px;
+  float: left;
+  margin-left: 30px;
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  width: 10px;
+  background-color: white;
+}
+
+.kockica {
+  width: 100px;
+  height: 100px;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+.front {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 34px;
+  color: #393c28;
+  background: #14d355;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform .7s;
+}
+
+.back {
+  width: 100px;
+  height: 100px;
+  background: #14d355;
+  position: absolute;
+  line-height: 100px;
+  text-align: center;
+  font-size: 34px;
+  color: tomato;
+  transform: perspective(900px) rotateY(180deg);
+  backface-visibility: hidden;
+  transition: transform .7s;
+}
